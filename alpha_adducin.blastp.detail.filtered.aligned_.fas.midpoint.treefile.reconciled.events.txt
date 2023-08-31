@@ -1,0 +1,60 @@
+COST: 40.0
+
+
+Duplications
+Gene                L. Bound            U. Bound            
+=================== =================== =================== 
+n57                 Eumetazoa           N/A
+n49                 Eumetazoa           N/A
+n47                 Eumetazoa           N/A
+n45                 Eumetazoa           N/A
+n29                 Nvectensis          Anthozoa
+n42                 Bilateria           Eumetazoa
+n40                 Bilateria           Eumetazoa
+n34                 Bilateria           Eumetazoa
+n39                 Hsapiens            Chordata
+n37                 Hsapiens            Chordata
+n52                 Bbelcheri           Chordata
+n55                 Aplanci             Deuterostomia
+Duplications: 12 
+
+
+Losses
+Species             No. of Losses  
+=================== ============== 
+Deuterostomia       0
+Myessoensis         4
+Anthozoa            2
+Cnidaria            1
+Bilateria           3
+Dgigantea           1
+Eumetazoa           0
+Chordata            1
+Aplanci             3
+Hvulgaris           2
+Nvectensis          1
+Hsapiens            3
+Bbelcheri           1
+
+Losses: 22
+
+
+Species             Duplications   cD_Nodes       Transfers_from Transfers_to   Losses         
+=================== ============== ============== ============== ============== ============== 
+Deuterostomia       0              0              0              0              0              
+Myessoensis         0              0              0              0              4              
+Anthozoa            0              0              0              0              2              
+Cnidaria            0              0              0              0              1              
+Bilateria           3              0              0              0              3              
+Dgigantea           0              0              0              0              1              
+Eumetazoa           4              0              0              0              0              
+Chordata            0              0              0              0              1              
+Aplanci             1              0              0              0              3              
+Hvulgaris           0              0              0              0              2              
+Nvectensis          1              0              0              0              1              
+Hsapiens            2              0              0              0              3              
+Bbelcheri           1              0              0              0              1              
+
+Duplications: 12
+Losses: 22
+
