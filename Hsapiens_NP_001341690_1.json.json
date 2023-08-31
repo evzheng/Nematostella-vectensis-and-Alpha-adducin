@@ -1,0 +1,1287 @@
+{
+ "interproscan-version": "5.52-86.0",
+"results": [ {
+  "sequence" : "MNGDSRAAVVTSPPPTTAPHKERYFDRVDENNPEYLRERNMAPDLRQDFNMMEQKKRVSMILQSPAFCEELESMIQEQFKKGKNPTGLLALQQIADFMTTNVPNVYPAAPQGGMAALNMSLGMVTPVNDLRGSDSIAYDKGEKLLRCKLAAFYRLADLFGWSQLIYNHITTRVNSEQEHFLIVPFGLLYSEVTASSLVKINLQGDIVDRGSTNLGVNQAGFTLHSAIYAARPDVKCVVHIHTPAGAAVSAMKCGLLPISPEALSLGEVAYHDYHGILVDEEEKVLIQKNLGPKSKVLILRNHGLVSVGESVEEAFYYIHNLVVACEIQVRTLASAGGPDNLVLLNPEKYKAKSRSPGSPVGEGTGSPPKWQIGEQEFEALMRMLDNLGYRTGYPYRYPALREKSKKYSDVEVPASVTGYSFASDGDSGTCSPLRHSFQKQQREKTRWLNSGRGDEASEEGQNGSSPKSKTKVWTNITHDHVKPLLQSLSSGVCVPSCITNCLWTKEDGHRTSTSAVPNLFVPLNTNPKEVQEMRNKIREQNLQDIKTAGPQSQVLCGVVMDRSLVQDAPLSDCTETIEGLELTEQTFSPAKSLSFRKGELVTASKAIIEKEYQPHVIVSTTGPNPFTTLTDRELEEYRREVERKQKGSEENLDEAREQKEKSPPDQPAVPHPPPSTPIKLEEDLVPEPTTGDDSDAATFKPTLPDLSPDEPSEALGFPMLEKEEEAHRPPSPTEAPTEASPEPAPDPAPVAEEAAPSAVEEGAAADPGSDGSPGKSPSKKKKKFRTPSFLKKSKKKSDS",
+  "md5" : "cb780a57d206e62b4a103a7c1041211d",
+  "matches" : [ {
+    "signature" : {
+      "accession" : "Coil",
+      "name" : "Coil",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "COILS",
+        "version" : "2.2.1"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 634,
+      "end" : 658,
+      "location-fragments" : [ {
+        "start" : 634,
+        "end" : 658,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "Coil"
+  }, {
+    "signature" : {
+      "accession" : "PTHR10672:SF4",
+      "name" : "ALPHA-ADDUCIN",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "15.0"
+      },
+      "entry" : {
+        "accession" : "IPR027766",
+        "name" : "ADD1",
+        "description" : "Alpha-adducin",
+        "type" : "FAMILY",
+        "goXRefs" : [ {
+          "name" : "cytoskeleton",
+          "databaseName" : "GO",
+          "category" : "CELLULAR_COMPONENT",
+          "id" : "GO:0005856"
+        } ],
+        "pathwayXRefs" : [ {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-264870"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5223345"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-264870"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5223345"
+        }, {
+          "name" : "XBP1(S) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381038"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5223345"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-264870"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 799,
+      "hmmStart" : 1,
+      "hmmEnd" : 734,
+      "hmmLength" : 734,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 799,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 799,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1580.3,
+    "model-ac" : "PTHR10672:SF4"
+  }, {
+    "signature" : {
+      "accession" : "SSF53639",
+      "name" : "AraD/HMP-PK domain-like",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SUPERFAMILY",
+        "version" : "1.75"
+      },
+      "entry" : {
+        "accession" : "IPR036409",
+        "name" : "Aldolase_II/adducin_N_sf",
+        "description" : "Class II aldolase/adducin N-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-264870"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-264870"
+        }, {
+          "name" : "D-threonate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7871"
+        }, {
+          "name" : "taxiphyllin bioactivation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7089"
+        }, {
+          "name" : "lactate biosynthesis (archaea)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5197"
+        }, {
+          "name" : "5'-deoxyadenosine degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8131"
+        }, {
+          "name" : "3-dimethylallyl-4-hydroxybenzoate biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7303"
+        }, {
+          "name" : "thiamine diphosphate salvage IV (yeast)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7356"
+        }, {
+          "name" : "hydroxymethylpyrimidine salvage",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6910"
+        }, {
+          "name" : "thiamine diphosphate salvage II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6897"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-9627069"
+        }, {
+          "name" : "4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6890"
+        }, {
+          "name" : "Methionine salvage pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1237112"
+        }, {
+          "name" : "XBP1(S) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381038"
+        }, {
+          "name" : "thiamine diphosphate biosynthesis I (E. coli)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6894"
+        }, {
+          "name" : "D-erythronate degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7873"
+        }, {
+          "name" : "fluoroacetate and fluorothreonine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6644"
+        }, {
+          "name" : "thiamine diphosphate biosynthesis III (Staphylococcus)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6907"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5223345"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9627069"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9627069"
+        }, {
+          "name" : "thiamine diphosphate biosynthesis II (Bacillus)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6893"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5223345"
+        }, {
+          "name" : "4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7282"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-111458"
+        }, {
+          "name" : "L-threonate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7874"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation III",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8132"
+        }, {
+          "name" : "D-erythronate degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7872"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9627069"
+        }, {
+          "name" : "triethylamine degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7085"
+        }, {
+          "name" : "thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7357"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5223345"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5223345"
+        }, {
+          "name" : "5'-deoxyadenosine degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8130"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7174"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-264870"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111458"
+        }, {
+          "name" : "vitamin B6 degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5499"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-111458"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-111458"
+        }, {
+          "name" : "thiamine diphosphate biosynthesis IV (eukaryotes)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6908"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5223345"
+        }, {
+          "name" : "L-ascorbate degradation II (bacterial, aerobic)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6961"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-4361"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-264870"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 142,
+      "end" : 335,
+      "hmmLength" : 206,
+      "location-fragments" : [ {
+        "start" : 142,
+        "end" : 335,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 9.81E-56,
+    "model-ac" : "0036761"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 734,
+      "end" : 750,
+      "location-fragments" : [ {
+        "start" : 734,
+        "end" : 750,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Proline-rich"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 716,
+      "end" : 731,
+      "location-fragments" : [ {
+        "start" : 716,
+        "end" : 731,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 455,
+      "end" : 470,
+      "location-fragments" : [ {
+        "start" : 455,
+        "end" : 470,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polar"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 638,
+      "end" : 664,
+      "location-fragments" : [ {
+        "start" : 638,
+        "end" : 664,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "SM01007",
+      "name" : "Aldolase_II_2",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "SMART",
+        "version" : "7.1"
+      },
+      "entry" : {
+        "accession" : "IPR001303",
+        "name" : "Aldolase_II/adducin_N",
+        "description" : "Class II aldolase/adducin N-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-264870"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-264870"
+        }, {
+          "name" : "D-threonate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7871"
+        }, {
+          "name" : "taxiphyllin bioactivation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7089"
+        }, {
+          "name" : "lactate biosynthesis (archaea)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5197"
+        }, {
+          "name" : "5'-deoxyadenosine degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8131"
+        }, {
+          "name" : "3-dimethylallyl-4-hydroxybenzoate biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7303"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-9627069"
+        }, {
+          "name" : "Methionine salvage pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1237112"
+        }, {
+          "name" : "XBP1(S) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381038"
+        }, {
+          "name" : "D-erythronate degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7873"
+        }, {
+          "name" : "fluoroacetate and fluorothreonine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6644"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5223345"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9627069"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9627069"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5223345"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-111458"
+        }, {
+          "name" : "L-threonate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7874"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation III",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8132"
+        }, {
+          "name" : "D-erythronate degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7872"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9627069"
+        }, {
+          "name" : "triethylamine degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7085"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5223345"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5223345"
+        }, {
+          "name" : "5'-deoxyadenosine degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8130"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7174"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-264870"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111458"
+        }, {
+          "name" : "vitamin B6 degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5499"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-111458"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-111458"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5223345"
+        }, {
+          "name" : "L-ascorbate degradation II (bacterial, aerobic)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6961"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-4361"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-264870"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 147,
+      "end" : 329,
+      "hmmStart" : 1,
+      "hmmEnd" : 283,
+      "hmmLength" : 283,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 2.5E-59,
+      "score" : 213.1,
+      "location-fragments" : [ {
+        "start" : 147,
+        "end" : 329,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.5E-59,
+    "score" : 213.1,
+    "model-ac" : "SM01007"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 638,
+      "end" : 799,
+      "location-fragments" : [ {
+        "start" : 638,
+        "end" : 799,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 437,
+      "end" : 453,
+      "location-fragments" : [ {
+        "start" : 437,
+        "end" : 453,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Polyampholyte"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "PTHR10672",
+      "name" : "ADDUCIN",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "PANTHER",
+        "version" : "15.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 799,
+      "hmmStart" : 1,
+      "hmmEnd" : 734,
+      "hmmLength" : 734,
+      "hmmBounds" : "COMPLETE",
+      "envelopeStart" : 1,
+      "envelopeEnd" : 799,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 799,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 0.0,
+    "familyName" : "Not available",
+    "score" : 1580.3,
+    "model-ac" : "PTHR10672"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 423,
+      "end" : 470,
+      "location-fragments" : [ {
+        "start" : 423,
+        "end" : 470,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 1,
+      "end" : 21,
+      "location-fragments" : [ {
+        "start" : 1,
+        "end" : 21,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : ""
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "G3DSA:3.40.225.10",
+      "name" : "",
+      "description" : null,
+      "signatureLibraryRelease" : {
+        "library" : "GENE3D",
+        "version" : "4.3.0"
+      },
+      "entry" : {
+        "accession" : "IPR036409",
+        "name" : "Aldolase_II/adducin_N_sf",
+        "description" : "Class II aldolase/adducin N-terminal domain superfamily",
+        "type" : "HOMOLOGOUS_SUPERFAMILY",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-264870"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-264870"
+        }, {
+          "name" : "D-threonate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7871"
+        }, {
+          "name" : "taxiphyllin bioactivation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7089"
+        }, {
+          "name" : "lactate biosynthesis (archaea)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5197"
+        }, {
+          "name" : "5'-deoxyadenosine degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8131"
+        }, {
+          "name" : "3-dimethylallyl-4-hydroxybenzoate biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7303"
+        }, {
+          "name" : "thiamine diphosphate salvage IV (yeast)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7356"
+        }, {
+          "name" : "hydroxymethylpyrimidine salvage",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6910"
+        }, {
+          "name" : "thiamine diphosphate salvage II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6897"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-9627069"
+        }, {
+          "name" : "4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6890"
+        }, {
+          "name" : "Methionine salvage pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1237112"
+        }, {
+          "name" : "XBP1(S) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381038"
+        }, {
+          "name" : "thiamine diphosphate biosynthesis I (E. coli)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6894"
+        }, {
+          "name" : "D-erythronate degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7873"
+        }, {
+          "name" : "fluoroacetate and fluorothreonine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6644"
+        }, {
+          "name" : "thiamine diphosphate biosynthesis III (Staphylococcus)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6907"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5223345"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9627069"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9627069"
+        }, {
+          "name" : "thiamine diphosphate biosynthesis II (Bacillus)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6893"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5223345"
+        }, {
+          "name" : "4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7282"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-111458"
+        }, {
+          "name" : "L-threonate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7874"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation III",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8132"
+        }, {
+          "name" : "D-erythronate degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7872"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9627069"
+        }, {
+          "name" : "triethylamine degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7085"
+        }, {
+          "name" : "thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7357"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5223345"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5223345"
+        }, {
+          "name" : "5'-deoxyadenosine degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8130"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7174"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-264870"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111458"
+        }, {
+          "name" : "vitamin B6 degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5499"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-111458"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-111458"
+        }, {
+          "name" : "thiamine diphosphate biosynthesis IV (eukaryotes)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6908"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5223345"
+        }, {
+          "name" : "L-ascorbate degradation II (bacterial, aerobic)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6961"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-4361"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-264870"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 135,
+      "end" : 391,
+      "hmmStart" : 7,
+      "hmmEnd" : 247,
+      "hmmLength" : 253,
+      "hmmBounds" : "COMPLETE",
+      "evalue" : 4.6E-74,
+      "score" : 250.7,
+      "envelopeStart" : 135,
+      "envelopeEnd" : 391,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 135,
+        "end" : 391,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 2.9E-74,
+    "score" : 251.4,
+    "model-ac" : "3ocrB00"
+  }, {
+    "signature" : {
+      "accession" : "PF00596",
+      "name" : "Aldolase_II",
+      "description" : "Class II Aldolase and Adducin N-terminal domain",
+      "signatureLibraryRelease" : {
+        "library" : "PFAM",
+        "version" : "33.1"
+      },
+      "entry" : {
+        "accession" : "IPR001303",
+        "name" : "Aldolase_II/adducin_N",
+        "description" : "Class II aldolase/adducin N-terminal",
+        "type" : "DOMAIN",
+        "goXRefs" : [ ],
+        "pathwayXRefs" : [ {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-264870"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-264870"
+        }, {
+          "name" : "D-threonate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7871"
+        }, {
+          "name" : "taxiphyllin bioactivation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7089"
+        }, {
+          "name" : "lactate biosynthesis (archaea)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5197"
+        }, {
+          "name" : "5'-deoxyadenosine degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8131"
+        }, {
+          "name" : "3-dimethylallyl-4-hydroxybenzoate biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7303"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-9627069"
+        }, {
+          "name" : "Methionine salvage pathway",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-1237112"
+        }, {
+          "name" : "XBP1(S) activates chaperone genes",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-381038"
+        }, {
+          "name" : "D-erythronate degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7873"
+        }, {
+          "name" : "fluoroacetate and fluorothreonine biosynthesis",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6644"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-5223345"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-9627069"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-9627069"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-5223345"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-111458"
+        }, {
+          "name" : "L-threonate degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7874"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation III",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8132"
+        }, {
+          "name" : "D-erythronate degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7872"
+        }, {
+          "name" : "Regulation of the apoptosome activity",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-9627069"
+        }, {
+          "name" : "triethylamine degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7085"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-CEL-5223345"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-5223345"
+        }, {
+          "name" : "5'-deoxyadenosine degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-8130"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation II",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-7174"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-DME-264870"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-HSA-111458"
+        }, {
+          "name" : "vitamin B6 degradation",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-5499"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-MMU-111458"
+        }, {
+          "name" : "Formation of apoptosome",
+          "databaseName" : "Reactome",
+          "id" : "R-DRE-111458"
+        }, {
+          "name" : "Miscellaneous transport and binding events",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-5223345"
+        }, {
+          "name" : "L-ascorbate degradation II (bacterial, aerobic)",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-6961"
+        }, {
+          "name" : "S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation I",
+          "databaseName" : "MetaCyc",
+          "id" : "PWY-4361"
+        }, {
+          "name" : "Caspase-mediated cleavage of cytoskeletal proteins",
+          "databaseName" : "Reactome",
+          "id" : "R-RNO-264870"
+        } ]
+      }
+    },
+    "locations" : [ {
+      "start" : 148,
+      "end" : 329,
+      "hmmStart" : 2,
+      "hmmEnd" : 186,
+      "hmmLength" : 186,
+      "hmmBounds" : "C_TERMINAL_COMPLETE",
+      "evalue" : 1.6E-40,
+      "score" : 138.9,
+      "envelopeStart" : 147,
+      "envelopeEnd" : 329,
+      "postProcessed" : true,
+      "location-fragments" : [ {
+        "start" : 148,
+        "end" : 329,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "evalue" : 1.1E-40,
+    "score" : 139.5,
+    "model-ac" : "PF00596"
+  }, {
+    "signature" : {
+      "accession" : "mobidb-lite",
+      "name" : "disorder_prediction",
+      "description" : "consensus disorder prediction",
+      "signatureLibraryRelease" : {
+        "library" : "MOBIDB_LITE",
+        "version" : "2.0"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 665,
+      "end" : 679,
+      "location-fragments" : [ {
+        "start" : 665,
+        "end" : 679,
+        "dc-status" : "CONTINUOUS"
+      } ],
+      "sequence-feature" : "Proline-rich"
+    } ],
+    "model-ac" : "mobidb-lite"
+  }, {
+    "signature" : {
+      "accession" : "cd00398",
+      "name" : "Aldolase_II",
+      "description" : "Aldolase_II",
+      "signatureLibraryRelease" : {
+        "library" : "CDD",
+        "version" : "3.18"
+      },
+      "entry" : null
+    },
+    "locations" : [ {
+      "start" : 142,
+      "end" : 352,
+      "sites" : [ {
+        "description" : "active site",
+        "numLocations" : 9,
+        "siteLocations" : [ {
+          "start" : 185,
+          "end" : 185,
+          "residue" : "F"
+        }, {
+          "start" : 211,
+          "end" : 211,
+          "residue" : "S"
+        }, {
+          "start" : 241,
+          "end" : 241,
+          "residue" : "H"
+        }, {
+          "start" : 213,
+          "end" : 213,
+          "residue" : "N"
+        }, {
+          "start" : 186,
+          "end" : 186,
+          "residue" : "G"
+        }, {
+          "start" : 239,
+          "end" : 239,
+          "residue" : "H"
+        }, {
+          "start" : 212,
+          "end" : 212,
+          "residue" : "T"
+        }, {
+          "start" : 168,
+          "end" : 168,
+          "residue" : "H"
+        }, {
+          "start" : 302,
+          "end" : 302,
+          "residue" : "H"
+        } ]
+      }, {
+        "description" : "Zn2+ binding site",
+        "numLocations" : 3,
+        "siteLocations" : [ {
+          "start" : 241,
+          "end" : 241,
+          "residue" : "H"
+        }, {
+          "start" : 239,
+          "end" : 239,
+          "residue" : "H"
+        }, {
+          "start" : 302,
+          "end" : 302,
+          "residue" : "H"
+        } ]
+      }, {
+        "description" : "intersubunit interface",
+        "numLocations" : 22,
+        "siteLocations" : [ {
+          "start" : 259,
+          "end" : 259,
+          "residue" : "S"
+        }, {
+          "start" : 190,
+          "end" : 190,
+          "residue" : "S"
+        }, {
+          "start" : 163,
+          "end" : 163,
+          "residue" : "Q"
+        }, {
+          "start" : 249,
+          "end" : 249,
+          "residue" : "S"
+        }, {
+          "start" : 319,
+          "end" : 319,
+          "residue" : "H"
+        }, {
+          "start" : 262,
+          "end" : 262,
+          "residue" : "A"
+        }, {
+          "start" : 261,
+          "end" : 261,
+          "residue" : "E"
+        }, {
+          "start" : 244,
+          "end" : 244,
+          "residue" : "A"
+        }, {
+          "start" : 330,
+          "end" : 330,
+          "residue" : "R"
+        }, {
+          "start" : 348,
+          "end" : 348,
+          "residue" : "K"
+        }, {
+          "start" : 250,
+          "end" : 250,
+          "residue" : "A"
+        }, {
+          "start" : 241,
+          "end" : 241,
+          "residue" : "H"
+        }, {
+          "start" : 301,
+          "end" : 301,
+          "residue" : "N"
+        }, {
+          "start" : 251,
+          "end" : 251,
+          "residue" : "M"
+        }, {
+          "start" : 191,
+          "end" : 191,
+          "residue" : "E"
+        }, {
+          "start" : 243,
+          "end" : 243,
+          "residue" : "P"
+        }, {
+          "start" : 151,
+          "end" : 151,
+          "residue" : "A"
+        }, {
+          "start" : 155,
+          "end" : 155,
+          "residue" : "L"
+        }, {
+          "start" : 188,
+          "end" : 188,
+          "residue" : "L"
+        }, {
+          "start" : 273,
+          "end" : 273,
+          "residue" : "Y"
+        }, {
+          "start" : 312,
+          "end" : 312,
+          "residue" : "E"
+        }, {
+          "start" : 323,
+          "end" : 323,
+          "residue" : "V"
+        } ]
+      } ],
+      "evalue" : 2.54227E-68,
+      "score" : 222.626,
+      "location-fragments" : [ {
+        "start" : 142,
+        "end" : 352,
+        "dc-status" : "CONTINUOUS"
+      } ]
+    } ],
+    "model-ac" : "cd00398"
+  } ],
+  "xref" : [ {
+    "name" : "Hsapiens.NP_001341690.1 alpha-adducin isoform g",
+    "id" : "Hsapiens.NP_001341690.1"
+  } ]
+} ]
+}

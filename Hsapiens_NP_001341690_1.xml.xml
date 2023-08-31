@@ -1,0 +1,455 @@
+<?xml version="1.0"?><protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5" interproscan-version="5.52-86.0">
+  <protein>
+    <sequence md5="cb780a57d206e62b4a103a7c1041211d">MNGDSRAAVVTSPPPTTAPHKERYFDRVDENNPEYLRERNMAPDLRQDFNMMEQKKRVSMILQSPAFCEELESMIQEQFKKGKNPTGLLALQQIADFMTTNVPNVYPAAPQGGMAALNMSLGMVTPVNDLRGSDSIAYDKGEKLLRCKLAAFYRLADLFGWSQLIYNHITTRVNSEQEHFLIVPFGLLYSEVTASSLVKINLQGDIVDRGSTNLGVNQAGFTLHSAIYAARPDVKCVVHIHTPAGAAVSAMKCGLLPISPEALSLGEVAYHDYHGILVDEEEKVLIQKNLGPKSKVLILRNHGLVSVGESVEEAFYYIHNLVVACEIQVRTLASAGGPDNLVLLNPEKYKAKSRSPGSPVGEGTGSPPKWQIGEQEFEALMRMLDNLGYRTGYPYRYPALREKSKKYSDVEVPASVTGYSFASDGDSGTCSPLRHSFQKQQREKTRWLNSGRGDEASEEGQNGSSPKSKTKVWTNITHDHVKPLLQSLSSGVCVPSCITNCLWTKEDGHRTSTSAVPNLFVPLNTNPKEVQEMRNKIREQNLQDIKTAGPQSQVLCGVVMDRSLVQDAPLSDCTETIEGLELTEQTFSPAKSLSFRKGELVTASKAIIEKEYQPHVIVSTTGPNPFTTLTDRELEEYRREVERKQKGSEENLDEAREQKEKSPPDQPAVPHPPPSTPIKLEEDLVPEPTTGDDSDAATFKPTLPDLSPDEPSEALGFPMLEKEEEAHRPPSPTEAPTEASPEPAPDPAPVAEEAAPSAVEEGAAADPGSDGSPGKSPSKKKKKFRTPSFLKKSKKKSDS</sequence>
+    <xref id="Hsapiens.NP_001341690.1" name="Hsapiens.NP_001341690.1 alpha-adducin isoform g"/>
+    <matches>
+      <coils-match>
+        <signature ac="Coil" name="Coil">
+          <signature-library-release library="COILS" version="2.2.1"/>
+        </signature>
+        <model-ac>Coil</model-ac>
+        <locations>
+          <coils-location start="634" end="658">
+            <location-fragments>
+              <coils-location-fragment start="634" end="658" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </coils-location>
+        </locations>
+      </coils-match>
+      <hmmer2-match evalue="2.5E-59" score="213.1">
+        <signature ac="SM01007" name="Aldolase_II_2">
+          <entry ac="IPR001303" desc="Class II aldolase/adducin N-terminal" name="Aldolase_II/adducin_N" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-MMU-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="MetaCyc" id="PWY-7871" name="D-threonate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7089" name="taxiphyllin bioactivation"/>
+            <pathway-xref db="MetaCyc" id="PWY-5197" name="lactate biosynthesis (archaea)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8131" name="5'-deoxyadenosine degradation II"/>
+            <pathway-xref db="MetaCyc" id="PWY-7303" name="3-dimethylallyl-4-hydroxybenzoate biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DRE-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-1237112" name="Methionine salvage pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-381038" name="XBP1(S) activates chaperone genes"/>
+            <pathway-xref db="MetaCyc" id="PWY-7873" name="D-erythronate degradation II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6644" name="fluoroacetate and fluorothreonine biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-HSA-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="Reactome" id="R-DME-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-DME-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-7874" name="L-threonate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-8132" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation III"/>
+            <pathway-xref db="MetaCyc" id="PWY-7872" name="D-erythronate degradation I"/>
+            <pathway-xref db="Reactome" id="R-MMU-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-7085" name="triethylamine degradation"/>
+            <pathway-xref db="Reactome" id="R-CEL-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-MMU-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-8130" name="5'-deoxyadenosine degradation I"/>
+            <pathway-xref db="MetaCyc" id="PWY-7174" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation II"/>
+            <pathway-xref db="Reactome" id="R-DME-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-HSA-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-5499" name="vitamin B6 degradation"/>
+            <pathway-xref db="Reactome" id="R-MMU-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="Reactome" id="R-DRE-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="Reactome" id="R-RNO-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-6961" name="L-ascorbate degradation II (bacterial, aerobic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-4361" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation I"/>
+            <pathway-xref db="Reactome" id="R-RNO-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+          </entry>
+          <signature-library-release library="SMART" version="7.1"/>
+        </signature>
+        <model-ac>SM01007</model-ac>
+        <locations>
+          <hmmer2-location score="213.1" evalue="2.5E-59" hmm-start="1" hmm-end="283" hmm-length="283" hmm-bounds="COMPLETE" start="147" end="329">
+            <location-fragments>
+              <hmmer2-location-fragment start="147" end="329" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer2-location>
+        </locations>
+      </hmmer2-match>
+      <hmmer3-match evalue="2.9E-74" score="251.4">
+        <signature ac="G3DSA:3.40.225.10" name="">
+          <entry ac="IPR036409" desc="Class II aldolase/adducin N-terminal domain superfamily" name="Aldolase_II/adducin_N_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-MMU-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="MetaCyc" id="PWY-7871" name="D-threonate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7089" name="taxiphyllin bioactivation"/>
+            <pathway-xref db="MetaCyc" id="PWY-5197" name="lactate biosynthesis (archaea)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8131" name="5'-deoxyadenosine degradation II"/>
+            <pathway-xref db="MetaCyc" id="PWY-7303" name="3-dimethylallyl-4-hydroxybenzoate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7356" name="thiamine diphosphate salvage IV (yeast)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6910" name="hydroxymethylpyrimidine salvage"/>
+            <pathway-xref db="MetaCyc" id="PWY-6897" name="thiamine diphosphate salvage II"/>
+            <pathway-xref db="Reactome" id="R-DRE-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6890" name="4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-1237112" name="Methionine salvage pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-381038" name="XBP1(S) activates chaperone genes"/>
+            <pathway-xref db="MetaCyc" id="PWY-6894" name="thiamine diphosphate biosynthesis I (E. coli)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7873" name="D-erythronate degradation II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6644" name="fluoroacetate and fluorothreonine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6907" name="thiamine diphosphate biosynthesis III (Staphylococcus)"/>
+            <pathway-xref db="Reactome" id="R-DME-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-HSA-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="Reactome" id="R-DME-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6893" name="thiamine diphosphate biosynthesis II (Bacillus)"/>
+            <pathway-xref db="Reactome" id="R-HSA-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-7282" name="4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis II"/>
+            <pathway-xref db="Reactome" id="R-DME-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-7874" name="L-threonate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-8132" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation III"/>
+            <pathway-xref db="MetaCyc" id="PWY-7872" name="D-erythronate degradation I"/>
+            <pathway-xref db="Reactome" id="R-MMU-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-7085" name="triethylamine degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7357" name="thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)"/>
+            <pathway-xref db="Reactome" id="R-CEL-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-MMU-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-8130" name="5'-deoxyadenosine degradation I"/>
+            <pathway-xref db="MetaCyc" id="PWY-7174" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation II"/>
+            <pathway-xref db="Reactome" id="R-DME-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-HSA-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-5499" name="vitamin B6 degradation"/>
+            <pathway-xref db="Reactome" id="R-MMU-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="Reactome" id="R-DRE-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-6908" name="thiamine diphosphate biosynthesis IV (eukaryotes)"/>
+            <pathway-xref db="Reactome" id="R-RNO-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-6961" name="L-ascorbate degradation II (bacterial, aerobic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-4361" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation I"/>
+            <pathway-xref db="Reactome" id="R-RNO-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+          </entry>
+          <signature-library-release library="GENE3D" version="4.3.0"/>
+        </signature>
+        <model-ac>3ocrB00</model-ac>
+        <locations>
+          <hmmer3-location env-end="391" env-start="135" post-processed="true" score="250.7" evalue="4.6E-74" hmm-start="7" hmm-end="247" hmm-length="253" hmm-bounds="COMPLETE" start="135" end="391">
+            <location-fragments>
+              <hmmer3-location-fragment start="135" end="391" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <hmmer3-match evalue="1.1E-40" score="139.5">
+        <signature ac="PF00596" desc="Class II Aldolase and Adducin N-terminal domain" name="Aldolase_II">
+          <entry ac="IPR001303" desc="Class II aldolase/adducin N-terminal" name="Aldolase_II/adducin_N" type="DOMAIN">
+            <pathway-xref db="Reactome" id="R-HSA-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-MMU-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="MetaCyc" id="PWY-7871" name="D-threonate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7089" name="taxiphyllin bioactivation"/>
+            <pathway-xref db="MetaCyc" id="PWY-5197" name="lactate biosynthesis (archaea)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8131" name="5'-deoxyadenosine degradation II"/>
+            <pathway-xref db="MetaCyc" id="PWY-7303" name="3-dimethylallyl-4-hydroxybenzoate biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DRE-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-1237112" name="Methionine salvage pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-381038" name="XBP1(S) activates chaperone genes"/>
+            <pathway-xref db="MetaCyc" id="PWY-7873" name="D-erythronate degradation II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6644" name="fluoroacetate and fluorothreonine biosynthesis"/>
+            <pathway-xref db="Reactome" id="R-DME-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-HSA-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="Reactome" id="R-DME-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="Reactome" id="R-HSA-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-DME-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-7874" name="L-threonate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-8132" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation III"/>
+            <pathway-xref db="MetaCyc" id="PWY-7872" name="D-erythronate degradation I"/>
+            <pathway-xref db="Reactome" id="R-MMU-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-7085" name="triethylamine degradation"/>
+            <pathway-xref db="Reactome" id="R-CEL-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-MMU-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-8130" name="5'-deoxyadenosine degradation I"/>
+            <pathway-xref db="MetaCyc" id="PWY-7174" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation II"/>
+            <pathway-xref db="Reactome" id="R-DME-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-HSA-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-5499" name="vitamin B6 degradation"/>
+            <pathway-xref db="Reactome" id="R-MMU-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="Reactome" id="R-DRE-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="Reactome" id="R-RNO-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-6961" name="L-ascorbate degradation II (bacterial, aerobic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-4361" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation I"/>
+            <pathway-xref db="Reactome" id="R-RNO-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+          </entry>
+          <signature-library-release library="PFAM" version="33.1"/>
+        </signature>
+        <model-ac>PF00596</model-ac>
+        <locations>
+          <hmmer3-location env-end="329" env-start="147" post-processed="true" score="138.9" evalue="1.6E-40" hmm-start="2" hmm-end="186" hmm-length="186" hmm-bounds="C_TERMINAL_COMPLETE" start="148" end="329">
+            <location-fragments>
+              <hmmer3-location-fragment start="148" end="329" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </hmmer3-location>
+        </locations>
+      </hmmer3-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Proline-rich" start="734" end="750">
+            <location-fragments>
+              <mobidblite-location-fragment start="734" end="750" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="716" end="731">
+            <location-fragments>
+              <mobidblite-location-fragment start="716" end="731" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polar" start="455" end="470">
+            <location-fragments>
+              <mobidblite-location-fragment start="455" end="470" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="638" end="664">
+            <location-fragments>
+              <mobidblite-location-fragment start="638" end="664" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="638" end="799">
+            <location-fragments>
+              <mobidblite-location-fragment start="638" end="799" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Polyampholyte" start="437" end="453">
+            <location-fragments>
+              <mobidblite-location-fragment start="437" end="453" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="423" end="470">
+            <location-fragments>
+              <mobidblite-location-fragment start="423" end="470" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="" start="1" end="21">
+            <location-fragments>
+              <mobidblite-location-fragment start="1" end="21" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <mobidblite-match>
+        <signature ac="mobidb-lite" desc="consensus disorder prediction" name="disorder_prediction">
+          <signature-library-release library="MOBIDB_LITE" version="2.0"/>
+        </signature>
+        <model-ac>mobidb-lite</model-ac>
+        <locations>
+          <mobidblite-location sequence-feature="Proline-rich" start="665" end="679">
+            <location-fragments>
+              <mobidblite-location-fragment start="665" end="679" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </mobidblite-location>
+        </locations>
+      </mobidblite-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1580.3">
+        <signature ac="PTHR10672:SF4" name="ALPHA-ADDUCIN">
+          <entry ac="IPR027766" desc="Alpha-adducin" name="ADD1" type="FAMILY">
+            <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005856" name="cytoskeleton"/>
+            <pathway-xref db="Reactome" id="R-HSA-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-HSA-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-MMU-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-RNO-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-HSA-381038" name="XBP1(S) activates chaperone genes"/>
+            <pathway-xref db="Reactome" id="R-MMU-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-RNO-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+          </entry>
+          <signature-library-release library="PANTHER" version="15.0"/>
+        </signature>
+        <model-ac>PTHR10672:SF4</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="799" hmm-start="1" hmm-end="734" hmm-length="734" hmm-bounds="COMPLETE" start="1" end="799">
+            <location-fragments>
+              <panther-location-fragment start="1" end="799" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <panther-match evalue="0.0" familyName="Not available" score="1580.3">
+        <signature ac="PTHR10672" name="ADDUCIN">
+          <signature-library-release library="PANTHER" version="15.0"/>
+        </signature>
+        <model-ac>PTHR10672</model-ac>
+        <locations>
+          <panther-location env-start="1" env-end="799" hmm-start="1" hmm-end="734" hmm-length="734" hmm-bounds="COMPLETE" start="1" end="799">
+            <location-fragments>
+              <panther-location-fragment start="1" end="799" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </panther-location>
+        </locations>
+      </panther-match>
+      <rpsblast-match>
+        <signature ac="cd00398" desc="Aldolase_II" name="Aldolase_II">
+          <signature-library-release library="CDD" version="3.18"/>
+        </signature>
+        <model-ac>cd00398</model-ac>
+        <locations>
+          <rpsblast-location evalue="2.54227E-68" score="222.626" start="142" end="352">
+            <location-fragments>
+              <rpsblast-location-fragment start="142" end="352" dc-status="CONTINUOUS"/>
+            </location-fragments>
+            <sites>
+              <rpsblast-site description="active site" numLocations="9">
+                <site-locations>
+                  <site-location residue="F" start="185" end="185"/>
+                  <site-location residue="S" start="211" end="211"/>
+                  <site-location residue="H" start="241" end="241"/>
+                  <site-location residue="N" start="213" end="213"/>
+                  <site-location residue="G" start="186" end="186"/>
+                  <site-location residue="H" start="239" end="239"/>
+                  <site-location residue="T" start="212" end="212"/>
+                  <site-location residue="H" start="168" end="168"/>
+                  <site-location residue="H" start="302" end="302"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="Zn2+ binding site" numLocations="3">
+                <site-locations>
+                  <site-location residue="H" start="241" end="241"/>
+                  <site-location residue="H" start="239" end="239"/>
+                  <site-location residue="H" start="302" end="302"/>
+                </site-locations>
+              </rpsblast-site>
+              <rpsblast-site description="intersubunit interface" numLocations="22">
+                <site-locations>
+                  <site-location residue="S" start="259" end="259"/>
+                  <site-location residue="S" start="190" end="190"/>
+                  <site-location residue="Q" start="163" end="163"/>
+                  <site-location residue="S" start="249" end="249"/>
+                  <site-location residue="H" start="319" end="319"/>
+                  <site-location residue="A" start="262" end="262"/>
+                  <site-location residue="E" start="261" end="261"/>
+                  <site-location residue="A" start="244" end="244"/>
+                  <site-location residue="R" start="330" end="330"/>
+                  <site-location residue="K" start="348" end="348"/>
+                  <site-location residue="A" start="250" end="250"/>
+                  <site-location residue="H" start="241" end="241"/>
+                  <site-location residue="N" start="301" end="301"/>
+                  <site-location residue="M" start="251" end="251"/>
+                  <site-location residue="E" start="191" end="191"/>
+                  <site-location residue="P" start="243" end="243"/>
+                  <site-location residue="A" start="151" end="151"/>
+                  <site-location residue="L" start="155" end="155"/>
+                  <site-location residue="L" start="188" end="188"/>
+                  <site-location residue="Y" start="273" end="273"/>
+                  <site-location residue="E" start="312" end="312"/>
+                  <site-location residue="V" start="323" end="323"/>
+                </site-locations>
+              </rpsblast-site>
+            </sites>
+          </rpsblast-location>
+        </locations>
+      </rpsblast-match>
+      <superfamilyhmmer3-match evalue="9.81E-56">
+        <signature ac="SSF53639" name="AraD/HMP-PK domain-like">
+          <entry ac="IPR036409" desc="Class II aldolase/adducin N-terminal domain superfamily" name="Aldolase_II/adducin_N_sf" type="HOMOLOGOUS_SUPERFAMILY">
+            <pathway-xref db="Reactome" id="R-HSA-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-MMU-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="MetaCyc" id="PWY-7871" name="D-threonate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7089" name="taxiphyllin bioactivation"/>
+            <pathway-xref db="MetaCyc" id="PWY-5197" name="lactate biosynthesis (archaea)"/>
+            <pathway-xref db="MetaCyc" id="PWY-8131" name="5'-deoxyadenosine degradation II"/>
+            <pathway-xref db="MetaCyc" id="PWY-7303" name="3-dimethylallyl-4-hydroxybenzoate biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-7356" name="thiamine diphosphate salvage IV (yeast)"/>
+            <pathway-xref db="MetaCyc" id="PWY-6910" name="hydroxymethylpyrimidine salvage"/>
+            <pathway-xref db="MetaCyc" id="PWY-6897" name="thiamine diphosphate salvage II"/>
+            <pathway-xref db="Reactome" id="R-DRE-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6890" name="4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis I"/>
+            <pathway-xref db="Reactome" id="R-HSA-1237112" name="Methionine salvage pathway"/>
+            <pathway-xref db="Reactome" id="R-HSA-381038" name="XBP1(S) activates chaperone genes"/>
+            <pathway-xref db="MetaCyc" id="PWY-6894" name="thiamine diphosphate biosynthesis I (E. coli)"/>
+            <pathway-xref db="MetaCyc" id="PWY-7873" name="D-erythronate degradation II"/>
+            <pathway-xref db="MetaCyc" id="PWY-6644" name="fluoroacetate and fluorothreonine biosynthesis"/>
+            <pathway-xref db="MetaCyc" id="PWY-6907" name="thiamine diphosphate biosynthesis III (Staphylococcus)"/>
+            <pathway-xref db="Reactome" id="R-DME-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-HSA-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="Reactome" id="R-DME-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-6893" name="thiamine diphosphate biosynthesis II (Bacillus)"/>
+            <pathway-xref db="Reactome" id="R-HSA-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-7282" name="4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis II"/>
+            <pathway-xref db="Reactome" id="R-DME-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-7874" name="L-threonate degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-8132" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation III"/>
+            <pathway-xref db="MetaCyc" id="PWY-7872" name="D-erythronate degradation I"/>
+            <pathway-xref db="Reactome" id="R-MMU-9627069" name="Regulation of the apoptosome activity"/>
+            <pathway-xref db="MetaCyc" id="PWY-7085" name="triethylamine degradation"/>
+            <pathway-xref db="MetaCyc" id="PWY-7357" name="thiamine phosphate formation from pyrithiamine and oxythiamine (yeast)"/>
+            <pathway-xref db="Reactome" id="R-CEL-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="Reactome" id="R-MMU-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-8130" name="5'-deoxyadenosine degradation I"/>
+            <pathway-xref db="MetaCyc" id="PWY-7174" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation II"/>
+            <pathway-xref db="Reactome" id="R-DME-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+            <pathway-xref db="Reactome" id="R-HSA-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-5499" name="vitamin B6 degradation"/>
+            <pathway-xref db="Reactome" id="R-MMU-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="Reactome" id="R-DRE-111458" name="Formation of apoptosome"/>
+            <pathway-xref db="MetaCyc" id="PWY-6908" name="thiamine diphosphate biosynthesis IV (eukaryotes)"/>
+            <pathway-xref db="Reactome" id="R-RNO-5223345" name="Miscellaneous transport and binding events"/>
+            <pathway-xref db="MetaCyc" id="PWY-6961" name="L-ascorbate degradation II (bacterial, aerobic)"/>
+            <pathway-xref db="MetaCyc" id="PWY-4361" name="S-methyl-5-thio-alpha-D-ribose 1-phosphate degradation I"/>
+            <pathway-xref db="Reactome" id="R-RNO-264870" name="Caspase-mediated cleavage of cytoskeletal proteins"/>
+          </entry>
+          <signature-library-release library="SUPERFAMILY" version="1.75"/>
+        </signature>
+        <model-ac>0036761</model-ac>
+        <locations>
+          <superfamilyhmmer3-location hmm-length="206" start="142" end="335">
+            <location-fragments>
+              <superfamilyhmmer3-location-fragment start="142" end="335" dc-status="CONTINUOUS"/>
+            </location-fragments>
+          </superfamilyhmmer3-location>
+        </locations>
+      </superfamilyhmmer3-match>
+    </matches>
+  </protein>
+</protein-matches>
