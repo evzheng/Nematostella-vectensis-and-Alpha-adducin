@@ -1,4 +1,4 @@
-# Final Project: Evelyn Zheng
+# Nematostella vectensis and its gene family, Alpha-adducin
 
 This repository is the methods of my Final Project of *Nematostella vectensis* and its gene family, Alpha-adducin. Feel free to reference the Final Paper pdf attached to the github repository prior to viewing the contents of the information below. Many contents were taken from Professor Joshua Rest.
 
